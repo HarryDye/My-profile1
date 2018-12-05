@@ -17,7 +17,6 @@ body{
   align-content: center;
   align-items: center;
   justify-content:center;
-
 }
 
 h1, h2, h3, h4, h5, th{
@@ -29,6 +28,10 @@ h1, h2, h3, h4, h5, th{
 
 img {
   border-radius: 20%;
+}
+
+p{
+  text-align: center;
 }
 
 /* Link Styling ------------ */
