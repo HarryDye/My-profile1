@@ -1,14 +1,35 @@
-/* color scheme https://coolors.co/293132-474044-4f5165-547aa5-50d8d7
-#293132
-#474044
-#4F5165
-#547AA5
-#50D8D7
+/* color scheme https://coolors.co/e7ecef-274c77-6096ba-a3cef1-8b8c89
+#E7ECEF
+#274C77
+#6096BA
+#A3CEF1
+#8B8C89
  */
 
 body{
-  background-color: #547AA5;
-  color: #293132;
+  background-color: #6096BA;
+  color: #E7ECEF;
   font-family: 'Rubik', sans-serif;
   line-height:1em;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, th{
+  color: #274C77;
+  font-family: 'PT Serif', sans-serif;
+  letter-spacing: 1px;
+  line-height:1.5em;
+}
+/* links 880D1E CC3F0C */
+i{
+  text-decoration: none;
+  color: #880D1E;
+  font-size: 30px;
+}
+i:hover{
+  color: #CC3F0C;
+}
+
+ul{
+list-style-type:none;
 }
