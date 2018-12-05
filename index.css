@@ -1,0 +1,14 @@
+/* color scheme https://coolors.co/293132-474044-4f5165-547aa5-50d8d7
+#293132
+#474044
+#4F5165
+#547AA5
+#50D8D7
+ */
+
+body{
+  background-color: #547AA5;
+  color: #293132;
+  font-family: 'Rubik', sans-serif;
+  line-height:1em;
+}
