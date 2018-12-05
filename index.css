@@ -12,6 +12,12 @@ body{
   font-family: 'Rubik', sans-serif;
   line-height:1em;
   letter-spacing: 0.5px;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content:center;
+
 }
 
 h1, h2, h3, h4, h5, th{
@@ -20,6 +26,13 @@ h1, h2, h3, h4, h5, th{
   letter-spacing: 1px;
   line-height:1.5em;
 }
+
+img {
+  border-radius: 20%;
+}
+
+/* Link Styling ------------ */
+
 /* links 880D1E CC3F0C */
 i{
   text-decoration: none;
@@ -30,6 +43,36 @@ i:hover{
   color: #CC3F0C;
 }
 
-ul{
-list-style-type:none;
+ul li{
+  list-style-type:none;
+  display: inline;
+  padding-right:10px;
+
 }
+
+/* table styling ------------- */
+
+table{
+  max-width: 560px;
+}
+
+table, th, td{
+   border-collapse: collapse;
+   border: 1px solid #274C77;
+}
+
+td{
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* color scheme https://coolors.co/e7ecef-274c77-6096ba-a3cef1-8b8c89
+#E7ECEF
+#274C77
+#6096BA
+#A3CEF1
+#8B8C89
+ */
