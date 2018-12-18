@@ -34,9 +34,25 @@ p{
   text-align: center;
 }
 
+div #container{  width: 500px;  margin: 0 auto; /* you can change 0 if your want top-bottom margin */
+}
+
+div .card {
+  text-align: center;
+}
+div .card1{
+  margin-right: 10px;
+}
+div .card2{
+  margin-right: 30px;
+}
+div .card3{
+  width: 500px;
+}
+
 /* Link Styling ------------ */
 
-/* links 880D1E CC3F0C */
+/* links colors #880D1E #CC3F0C */
 i{
   text-decoration: none;
   color: #880D1E;
